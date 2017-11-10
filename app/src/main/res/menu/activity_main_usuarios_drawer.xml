@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/str_hoteleria_turismo">
+        <menu>
+            <item
+                android:id="@+id/hoteles"
+                android:icon="@drawable/ic_hotel_black_24dp"
+                android:title="@string/str_hoteles" />
+            <item
+                android:id="@+id/restaurantes"
+                android:icon="@drawable/ic_restaurant_black_24dp"
+                android:title="@string/str_restaurantes" />
+            <item
+                android:id="@+id/bares"
+                android:icon="@drawable/ic_local_bar_black_24dp"
+                android:title="@string/str_bares" />
+            <item
+                android:id="@+id/recreacionDeportes"
+                android:icon="@drawable/ic_nature_people_black_24dp"
+                android:title="@string/str_deportes_rec" />
+        </menu>
+    </item>
+
+    <item android:title="@string/str_utilidades">
+    <menu>
+        <item
+            android:id="@+id/tarifas"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="@string/str_tarifas"
+            />
+        <item
+            android:id="@+id/buzonSugerencias"
+            android:icon="@drawable/ic_markunread_mailbox_black_24dp"
+            android:title="@string/str_buzon"
+           />
+        <item
+            android:id="@+id/historial"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="@string/str_histprial" />
+        <item
+            android:id="@+id/tutorial"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/str_act_tutorial" />
+            <item
+                android:id="@+id/compartir"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/str_compartir" />
+            <item
+                android:id="@+id/salir_app"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="@string/str_cerrar_sesion" />
+        </menu>
+    </item>
+
+</menu>

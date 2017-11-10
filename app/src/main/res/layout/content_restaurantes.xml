@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idNestScrollViewNoti"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="code.taxigp.com.usuariotaxigp1.DetalleHotBarRec"
+    tools:showIn="@layout/activity_restaurantes">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="2dp"
+            android:background="#ffffff"
+            android:text="@string/str_contenido"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+
+        <TextView
+            android:id="@+id/txTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="3dp"
+            android:text="sin informacion"
+            android:textAlignment="gravity"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorAccentAzul"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="6dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="3dp"
+            android:text="sin informacion"
+            android:textAlignment="gravity"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="?attr/colorControlNormal"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <ListView
+            android:id="@+id/listaPlatos"
+            android:layout_width="match_parent"
+            android:layout_height="1010dp" />
+
+        <Button
+            android:id="@+id/btnReservaciones"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/colorAccentAzul"
+            android:onClick="llamada"
+            android:text="@string/str_reservacion"
+            android:textColor="@color/colorTexto" />
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

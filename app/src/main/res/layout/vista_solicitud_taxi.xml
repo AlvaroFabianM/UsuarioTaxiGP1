@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_weight="40"
+
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp">
+
+            <EditText
+                android:id="@+id/txNombreSolicitud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/str_nombres"
+                android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/txDireccionSolicitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/str_direccion"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/txTelefonoSolicitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/str_telefono"
+            android:inputType="phone" />
+
+
+        <Button
+            android:id="@+id/btnSolicitarServicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/secondaryDarkColor"
+            android:text="@string/str_solicitar_taxi"
+            android:textColor="@color/grisFondo2"
+            tools:targetApi="lollipop" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

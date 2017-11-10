@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAzul">#29caea</color>
+    <color name="colorTexto">#ffffff</color>
+    <color name="colorTextoHint">#c4c3c3</color>
+    <color name="grisFondo">#ffffff</color>
+    <color name="grisFondo2">#ffffff</color>
+    <color name="azulFacebook">#4061A6</color>
+
+    <color name="colorPrimary">#ffab00</color>
+    <color name="colorPrimary2">#363636</color>
+    <color name="primaryLightColor">#ffdd4b</color>
+    <color name="verdeNavegacion">#34a853</color>
+    <color name="colorPrimaryDark">#363636</color>
+    <color name="colorAccent">#363636</color>
+    <color name="colorAccentAzul">#003c8f</color>
+    <color name="secondaryLightColor">#5e92f3</color>
+    <color name="secondaryDarkColor">#003c8f</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ffffff</color>
+
+
+    <!--?xml version="1.0" encoding="UTF-8"?-->
+
+</resources>

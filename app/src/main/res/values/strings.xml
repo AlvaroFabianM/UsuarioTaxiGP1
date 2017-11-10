@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name"> </string>
+    <string name="facebook_app_id">1682446595110836</string>
+    <string name="str_mail">Correo</string>
+    <string name="str_contrasena">Contraseña</string>
+    <string name="str_ingresar">Acceder</string>
+    <string name="str_olvido_contrasena">¿Olvido su contraseña?</string>
+    <string name="str_registro">Registrarme</string>
+    <string name="str_log_face">Inicio con FaceBook</string>
+    <string name="str_registrar">CREAR CUENTA</string>
+    <string name="title_activity_main_usuarios"> </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="str_normal_map">Normal</string>
+    <string name="str_hibrido_map">Hibrido</string>
+    <string name="str_tierra_map">Tierra</string>
+    <string name="str_mipos">Posicion</string>
+    <string name="str_continuar">Continuar</string>
+    <string name="str_nombres">Nombres</string>
+    <string name="str_direccion">Dirección</string>
+    <string name="str_solicitar_taxi">Solicitar Taxi</string>
+    <string name="str_buzon">Buzón de sugerencias</string>
+    <string name="str_histprial">Historial</string>
+    <string name="str_act_tutorial">Activar tutorial</string>
+    <string name="str_cerrar_sesion">Cerrar sesión</string>
+    <string name="str_compartir">Compartir la Aplicación</string>
+    <string name="str_interes">Sitios de interés</string>
+    <string name="str_info_com">Información y Comunicaciones</string>
+    <string name="str_hoteleria_turismo">Hotelería y turismo</string>
+    <string name="str_hoteles">Hoteles</string>
+    <string name="str_restaurantes">Restaurantes</string>
+    <string name="str_bares">Bares</string>
+    <string name="str_deportes_rec">Recreación y deportes</string>
+    <string name="str_utilidades">Utilidades</string>
+    <string name="str_tarifas">Tarifas</string>
+    <string name="str_telefono">Celular</string>
+    <string name="str_buscando">Buscando vehículos cercanos...</string>
+    <string name="str_solicitud_enviada">Solicitud enviada, esperando confirmación del conductor…</string>
+    <string name="str_sin_conductores">Lo sentimos, no hay vehículos disponibles en el momento, por favor inténtelo mas tarde</string>
+    <string name="str_sin_conductore">Lo sentimos, no hay vehículos disponibles en el momento, por favor inténtelo mas tarde</string>
+    <string name="str_sin_internet">No se detecto conexión a internet…</string>
+    <string name="title_activity_buzon_sugerencias">BuzonSugerencias</string>
+    <string name="str_enviar">ENVIAR</string>
+    <string name="str_contenido">Contenido:</string>
+    <string name="str_asunto">Asunto</string>
+    <string name="str_destino">Conductor</string>
+    <string name="str_sms_delete">¿Está seguro de eliminar el historial?</string>
+    <string name="str_borrar">Borrar</string>
+    <string name="str_cancelar">Cancelar</string>
+    <string name="str_informacion_importante">Información importante</string>
+    <string name="str_activacion_tutorial">Activación tutorial</string>
+    <string name="str_aceptar">Aceptar</string>
+    <string name="str_acepta_tutorial">Presione \"Aceptar\" para iniciar</string>
+
+    <string name="idTapTarget1">Obtenga información sobre hoteles, restaurantes, y sitios de entretenimiento, También encontrará el historial y buzón de sugerencias de la aplicación</string>
+    <string name="idTapTarget3">Tutorial finalizado, puede volver a activarlo en las configuraciones</string>
+    <string name="idTapTargetMinus1">Active el GPS para obtener su actual ubicación</string>
+    <string name="idTapTarget0">Bienvenido a TAXI GE PE, Solicite el servicio presionando este botón</string>
+    <string name="str_encuentrame">Encuéntrame</string>
+    <string name="idUbicacion">Reinicia la búsqueda de su posición</string>
+    <string name="idTituloUbicacion">Active el GPS para obtener su actual ubicación</string>
+    <string name="conductorCamino">Su conductor llegara en aproximadamente</string>
+    <string name="title_activity_sitios">Sitios</string>
+    <string name="str_llamar">LLAMAR</string>
+    <string name="idTapTarget5">Asistente de navegación de Google, Presione sobre este botón para iniciar guía asistida</string>
+    <string name="str_reservacion">Reservaciones</string>
+
+
+</resources>

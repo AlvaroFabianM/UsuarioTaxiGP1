@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idNestScrollViewNoti"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="code.taxigp.com.usuariotaxigp1.DetalleHotBarRec"
+    tools:showIn="@layout/activity_hoteles_bares_recreacion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="wrap_content"
+            android:layout_height="370dp"
+            android:layout_weight="2.1"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/txDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="2dp"
+            android:background="#ffffff"
+            android:text="@string/str_contenido"
+            android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/txTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:text="sin informacion"
+            android:textAlignment="gravity"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorAccentAzul" />
+
+        <TextView
+            android:id="@+id/txDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:text="sin informacion"
+            android:textAlignment="gravity"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="?attr/colorControlNormal"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccentAzul"
+            android:onClick="llamada"
+            android:text="@string/str_llamar"
+            android:textColor="@color/colorTexto" />
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
